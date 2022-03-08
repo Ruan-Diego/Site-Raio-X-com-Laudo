@@ -1,0 +1,1692 @@
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+         
+    .tudo{
+        display: flex;
+        justify-content: center;
+    }
+    .box1{
+
+        position: fixed;
+        width: 100vw;
+        height: 64px;
+        left: 0px;
+        top: 0px;   
+        background-color: #012f3be3;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        z-index: 1000;
+
+        display:flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+   
+    .logo{
+
+        width: 55px;
+        height: 58px;
+        left: 32px;
+        top: 5px;
+        
+
+        background: url(Logo.png);
+       
+    }
+    .textTopo1{
+       /* position: absolute;
+        width: 51px;
+        height: 16px;
+        left: 142px;
+        top: 24px;     
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+
+        grid-area: 2;
+    }
+
+    .textTopo2{
+       /* position: absolute;
+        width: 129px;
+        height: 16px;
+        left: 225px;
+        top: 24px;       
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 3;
+    }
+
+    .textTopo3{
+       /* position: absolute;
+        width: 130px;
+        height: 16px;
+        left: 386px;
+        top: 24px; 
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 4;
+    }
+
+    .textTopo4{
+       /* position: absolute;
+        width: 50px;
+        height: 16px;
+        left: 546px;
+        top: 24px;    
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 5;
+    }
+
+    .textTopo5{
+       /* position: absolute;
+        width: 187px;
+        height: 16px;
+        left: 628px;
+        top: 24px;
+*/
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 6;
+    }
+
+    .textTopo6{
+       /* position: absolute;
+        width: 124px;
+        height: 16px;
+        left: 847px;
+        top: 24px;    
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 7;
+    }
+
+    .textTopo7{
+       /* position: absolute;
+        width: 106px;
+        height: 16px;
+        left: 1003px;
+        top: 24px;     
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 8;
+    }
+
+    .textTopo8{
+       /* position: absolute;
+        width: 67px;
+        height: 16px;
+        left: 1141px;
+        top: 24px;    
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 9;
+        
+    }
+
+    .textTopo9{
+       /* position: absolute;
+        width: 54px;
+        height: 16px;
+        left: 1280px;
+        top: 24px;
+        */
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #012F3B;
+        z-index: 3;
+        grid-area: 10;
+    }
+
+    .box2{
+
+        width: 134px;
+        height: 48px;
+        /*left: 1240px;
+        top: 8px;
+        */
+        background: #FFFFFF;
+        border: 1px solid #012F3B;
+        box-sizing: border-box;
+        border-radius: 8px; 
+        z-index: 2;
+        grid-area: 10;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .textEsp1{
+    position: absolute;
+    width: 327px;
+    height: 47px;
+    /*left: 546px;*/
+    top: 64px;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #012F3B;
+
+    text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textEsp2{
+        position: absolute;
+        width: 831px;
+        height: 65px;
+        /*left: 299px;*/
+        top: 128px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+        /* identical to box height */
+
+
+        color: #000000;
+    }
+
+    .textEsp3{
+        position: absolute;
+        width: 439px;
+        height: 28.43px;
+        top: 88px;
+        left: 130px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 34px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textEsp4{
+        position: absolute;
+        width: 442px;
+        height: 106.81px;
+        top: 138px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textEsp5{
+        position: absolute;
+        width: 422px;
+        height: 28.43px;
+        top: 78px;
+        left: 758px;
+
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 34px;
+        
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textEsp6{
+        position: absolute;
+        width: 422px;
+        height: 133.51px;
+        top: 138px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+
+
+
+        color: #000000;
+    }
+
+    .boxEsp2{
+
+        width: 507px;
+        height: 348px;
+
+
+        display: flex;
+        justify-content: center;
+
+
+
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 26px;
+    }
+
+    .boxEsp1{
+
+        width: 507px;
+        height: 348px;
+
+
+        display: flex;
+        justify-content: center;
+
+
+
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 26px;
+    }
+
+
+
+    .Esp{
+        position: absolute;
+        width: 1100px;
+        height: 500px;
+        top: 300px;
+
+
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+
+
+    .circuloEsp1{
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: -80px;
+
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #012F3B;
+    }
+
+    .circuloEsp2{
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: -80px;
+
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #012F3B;
+    }
+
+    .imgEsp1{
+        position: absolute;
+        width: 90px;
+        height: 75px;
+
+    }
+
+    .imgEsp2{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        z-index: 10;
+
+    }
+
+    .textPasso1{
+        position: absolute;
+        width: 644px;
+        height: 47px;
+        top: -30px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        /* identical to box height */
+
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textPasso2{
+        position: absolute;
+        width: 400px;
+        height: 65px;
+        top: -100px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+        /* identical to box height */
+
+
+
+        color: #000000;
+ 
+    }
+
+    .line{
+        position: absolute;
+        width: 2978px;
+        height: 0px;
+        left: -780px;
+        top: 3420px;
+       
+        background-color: #012F3B;
+        border: 2px solid #012F3B;
+        transform: rotate(-90deg);
+    }
+
+    .imgPasso1{
+        position: absolute;
+        width: 285px;
+        height: 90px;
+        left: 758px;
+        top: 2139px;
+
+        background: url(AppStrore.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .imgPasso2{
+        position: absolute;
+        width: 285px;
+        height: 90px;
+        left: 759px;
+        top: 2025px;
+
+        background: url(GooglePlay.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .imgPasso3{
+        position: absolute;
+        width: 78px;
+        height: 118px;
+        left: 485px;
+        top: 1941px;
+
+        background: url(phone.png);
+    }
+
+    .textPasso3{
+        position: absolute;
+        width: 320.24px;
+        height: 60px;
+        left: 351.86px;
+        top: 2088px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .textPasso4{
+        position: absolute;
+        width: 216px;
+        height: 40px;
+        left: 416px;
+        top: 2193px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso5{
+        position: absolute;
+        width: 232px;
+        height: 84px;
+        left: 408px;
+        top: 2249px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso4{
+        position: absolute;
+        width: 315px;
+        height: 490px;
+        left: 378px;
+        top: 2452px;
+
+        background: url(cadastro.png);
+
+    }
+
+    .imgPasso5{
+        position: absolute;
+        width: 78px;
+        height: 117px;
+        left: 853px;
+        top: 2477px;
+
+        background: url(prancheta.png);
+    }
+
+    .textPasso6{
+        position: absolute;
+        width: 323.4px;
+        height: 60px;
+        left: 730.05px;
+        top: 2625.04px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+        z-index: 10;
+
+        color: #FFFFFF;
+
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .retanguloPasso1{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 335.54px;
+        top: 2083px;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso1{
+        position: absolute;
+        width: 0px; 
+        height: 0px;
+        left: 293px;
+        top: 2083px;       
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+    }
+
+    .retanguloPasso2{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 710px;
+        top: 2626px;
+        z-index: 1;
+
+        background: #012F3B;
+
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso2{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 1083px;
+        top: 2626px;      
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+        z-index: 20;
+
+        transform: rotate(-180deg);
+
+    }
+
+    .textPasso7{
+        position: absolute;
+        width: 226px;
+        height: 40px;
+        left: 786px;
+        top: 2733px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso8{
+        position: absolute;
+        width: 271px;
+        height: 84px;
+        left: 767px;
+        top: 2789px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso6{
+        position: absolute;
+        width: 132px;
+        height: 132px;
+        left: 449px;
+        top: 3135px;
+
+        background: url(passo3.png);
+    }
+
+    .retanguloPasso3{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 335.54px;
+        top: 3290px;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso3{
+        position: absolute;
+        width: 0px; 
+        height: 0px;
+        left: 293px;
+        top: 3290px;       
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+    }
+
+    .textPasso9{
+        position: absolute;
+        width: 323.4px;
+        height: 60px;
+        left: 345px;
+        top: 3290px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .textPasso10{
+        position: absolute;
+        width: 337px;
+        height: 52px;
+        left: 344px;
+        top: 3406px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso11{
+        position: absolute;
+        width: 300px;
+        height: 84px;
+        left: 365px;
+        top: 3474px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso7{
+        position: absolute;
+        width: 300px;
+        height: 510px;
+        left: 757px;
+        top: 3048px;
+
+        background: url(laudo.png);
+    }
+
+    .retanguloPasso4{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 710px;
+        top: 3833px;
+        z-index: 1;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+
+    }
+
+    .trianguloPasso4{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 1083px;
+        top: 3833px;      
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+        z-index: 20;
+
+        transform: rotate(-180deg);
+
+    }
+
+    .textPasso12{
+        position: absolute;
+        width: 324.02px;
+        height: 60px;
+        left: 745.76px;
+        top: 3835px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+        z-index: 10;
+
+        color: #FFFFFF;
+    }
+
+    .textPasso13{
+        position: absolute;
+        width: 339px;
+        height: 41px;
+        left: 735px;
+        top: 3940px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso14{
+        position: absolute;
+        width: 362px;
+        height: 126px;
+        left: 722px;
+        top: 3997px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso8{
+        position: absolute;
+        width: 114px;
+        height: 78px;
+        left: 855px;
+        top: 3730px;
+
+        transform: rotate(180deg);
+
+        background: url(dinheiro.png);
+    }
+
+    .imgPasso9{
+        position: absolute;
+        width: 310px;
+        height: 515px;
+        left: 330px;
+        top: 3767px;
+
+        background: url(qrcode.png);
+    }
+
+    .retanguloPasso5{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 335.54px;
+        top: 4497px;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso5{
+        position: absolute;
+        width: 0px; 
+        height: 0px;
+        left: 293px;
+        top: 4497px;       
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+    }
+
+    .textPasso15{
+        position: absolute;
+        width: 323.4px;
+        height: 60px;
+        left: 352px;
+        top: 4500px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+        z-index: 10;
+
+        color: #FFFFFF;
+
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .textPasso16{
+        position: absolute;
+        width: 337px;
+        height: 52px;
+        left: 347px;
+        top: 4615px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso17{
+        position: absolute;
+        width: 300px;
+        height: 126px;
+        left: 372px;
+        top: 4685px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso10{
+        position: absolute;
+        width: 77px;
+        height: 113.06px;
+        left: 488px;
+        top: 4358px;
+
+        background: url(arquivo.png)        
+    }
+
+    .imgPasso11{
+        position: absolute;
+        width: 315px;
+        height: 515px;
+        left: 770px;
+        top: 4320px;
+        z-index: 10;
+
+        background: url(laudo2.png)
+    }
+
+    .textPasso18{
+        position: absolute;
+        width: 330px;
+        height: 47px;
+        left: 542px;
+        top: 4988px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .imgPasso12{
+        position: absolute;
+        width: 283px;
+        height: 85px;
+        left: 415px;
+        top: 5067px;
+
+        background: url(GooglePlay.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .imgPasso13{
+        position: absolute;
+        width: 283px;
+        height: 85px;
+        left: 720px;
+        top: 5067px;
+
+        background: url(AppStrore.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .boxPasso1{
+        position: absolute;
+        width: 1450px;
+        height: 300px;
+        top: -1750px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Passo{
+        position: absolute;
+        width: 100vw;
+        height: 3500px;
+        top: 1800px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .Preço{
+        position: absolute;
+        width: 100vw;
+        height: 20px;
+        top: 5350px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgPreço{
+        position: absolute;
+        width: 100vw;
+        height: 802px;
+
+        z-index: 1;
+    }
+
+    .imgPreço2{
+        position: absolute; 
+        top: 316px;
+        left: 60px;
+
+    }
+
+    .imgPreço3{
+        position: absolute;
+        top: 356px;
+        left: 60px;
+    }
+
+    .imgPreço4{
+        position: absolute;
+        top: 396px;
+        left: 58px;
+    }
+
+    .imgPreço5{
+        position: absolute;
+        top: 431px;
+        left: 60px;
+    }
+
+    .retanguloPreço1{
+        width: 100vw;
+        height: 802px;
+        z-index: 2;
+
+        background: rgba(255, 255, 255, 0.59);
+    }
+
+    .linePreço1{
+        position: absolute;
+        width: 273px;
+        height: 0px;
+        top: 295px;
+
+        background-color: #FFFFFF;
+        border: 3px solid #FFFFFF;
+    }
+
+    .linePreço2{
+        position: absolute;
+        width: 273.01px;
+        height: 0px;
+        top: 287px;
+
+        background-color: #FFFFFF;
+        border: 3px solid #FFFFFF;
+    }
+
+    .textPreço1{
+        position: absolute;
+        width: 436px;
+        height: 47px; 
+        top: 39px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        z-index: 10;
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+    .textPreço2{
+        position: absolute;
+        width: 100px;
+        height: 65px;
+        top: 94px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+        z-index: 10;
+
+
+        color: #000000;
+    }
+
+    .textPreço3{
+        position: absolute;
+        top: 53px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: -0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço4{
+        position: absolute;
+        top: 55px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: -0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço5{
+        position: absolute;
+        left: 65px;
+        top: 175px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.97);
+    }
+
+    .textPreço6{
+        position: absolute;
+        left: 115px;
+        top: 133px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 90px;
+        line-height: 117px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.97);
+    }
+
+    .textPreço7{
+        position: absolute;
+        width: 273px;
+        height: 129px;
+        top: 133px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 90px;
+        line-height: 117px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.97);
+    }
+
+    .textPreço8{
+        position: absolute;
+        top: 318px;
+        left: 97px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço9{
+        position: absolute;
+        top: 358px;
+        left: 97px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço10{
+        position: absolute;
+        top: 396px;
+        left: 97px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço11{
+        position: absolute;
+        top: 433px;
+        left: 97px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+    }
+
+    .textPreço12{
+        position: absolute;
+        width: 219px;
+        
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: 0.03em;
+
+        color: #012F3B;
+    }
+
+    .boxesPreço{
+        position: absolute;
+        width: 900px;
+        top: 210px;
+
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .boxPreço1{
+
+        width: 372px;
+        height: 477px;
+        top: 226px;
+        z-index: 5;
+
+        display: flex;
+        justify-content: center;
+
+        background: #012F3B;
+        box-shadow: inset 0px 4px 28px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .boxPreço2{
+
+        width: 372px;
+        height: 477px;
+        top: 226px;
+        z-index: 5;
+
+        display: flex;
+        justify-content: center;
+
+        background: #012F3B;
+        box-shadow: inset 0px 4px 28px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .boxPreço3{
+        position: absolute;
+        width: 314px;
+        height: 79px;
+        top: 348px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: #FFFFFF;
+        border: 1.5px solid #353434;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+
+    .home{
+        position: absolute;
+        width: 100vw;
+        height: 800px;
+        top: 64px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .imgHome2{
+        width: 34vw;
+        height: auto;
+
+        max-height: 800px;
+    }
+
+    .imgHome1{
+
+    width: 66vw;
+    height: auto;
+
+    max-height: 800px;
+    justify-content: end;
+
+    }
+
+    .textHome1{
+        position: absolute;
+        width: 457px;
+        height: 24px;
+        left: 58px;
+        top: 185px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.265em;
+
+        color: #012F3B;
+    }
+
+    .textHome2{
+        position: absolute;
+        width: 947px;
+        height: 130px;
+        left: 56px;
+        top: 217px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+
+        color: #000000;
+    }
+
+    .textHome3{
+        position: absolute;
+        width: 574px;
+        height: 43px;
+        left: 57px;
+        top: 536px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 43px;
+        /* identical to box height */
+
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textHome4{
+        position: absolute;
+        width: 207.28px;
+        height: 21.42px;
+        left: 278px;
+        top: 635.12px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        z-index: 10;
+
+        color: #FFFFFF;
+    }
+
+    
+    .boxHome1{
+        position: absolute;
+        width: 600px;
+        height: 108px;
+        left: 56px;
+        top: 607px;
+
+        background: #012F3B;
+        border: 1.5px solid #353434;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    
+
+    .imgHome3{
+        position: absolute;
+        width: 290px;
+        height: 90px;
+        left: 57px;
+        top: 385px;
+
+        background: url(GooglePlay.png);
+        
+    }
+
+    .imgHome4{
+        position: absolute;
+        width: 290px;
+        height: 90px;
+        left: 354px;
+        top: 385px;
+
+        background: url(AppStrore.png);
+       
+    }
+
+    .corpo{
+        position: absolute;
+        width: 100vw;
+        height: 800px;
+        top: 864px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+    </style>
+    
+
+    <div class="box1">
+        <div class="logo"></div>
+        <div class="textTopo1">Home</div>
+        <div class="textTopo2">Especialidades</div>
+        <div class="textTopo3">Como Funciona</div>
+        <div class="textTopo4">Preço</div>
+        <div class="textTopo5">Perguntas Frequentes</div>
+        <div class="textTopo6">Corpo Clínico</div>
+        <div class="textTopo7">Outros Apps</div>
+        <div class="textTopo8">Contato</div>
+        <div class="box2">
+            <div class="textTopo9">Login</div>
+        </div>
+       
+    </div>
+    
+   
+
+    <div class="home">
+        <img class="imgHome2", src="img2.png"></img>
+        <img class="imgHome1", src="img1.png"></img>
+
+        <div class="textHome1">RAIO X COM LAUDO</div>
+        <div class="textHome2">Solicite o laudo do exame de Raio X com comodidade e rapidez.</div>
+       
+        <div class="imgHome3"></div>
+        <div class="imgHome4"></div>
+        <div class="textHome3">Ou acesse direto pelo seu navegador.</div>
+        <div class="boxHome1">Cadastre-se</div>
+    </div>
+
+    <div class="corpo">
+        <div class="textEsp1">Que tipo de Raio X?</div>
+        <div class="textEsp2">Quais são as nossas especialidade?</div>
+        
+        <div class="Esp">                                          
+            <div class="boxEsp1">
+                <div class="textEsp3">RAIO X TORÁCICO</div>
+                <div class="textEsp4">Somos especialistas em interpretação de radiografias do tórax e idade óssea. Auxiliando médicos no diagnóstico e tratamento de diversas patologias.</div>
+                <div class="circuloEsp1">
+                    <img class="imgEsp1", src="radio2.png"></img>    
+                </div> 
+            </div>     
+            <div class="arm"></div>
+            <div class="boxEsp2">
+                <div class="textEsp5">IDADE ÓSSEA</div>
+                <div class="textEsp6">Equipe capacitada para realização das interpretações radiográficas em idade óssea, visando estimar a idade óssea mais adequada por faixa etária e sexo.</div>    
+                <div class="circuloEsp2">
+                    <img class="imgEsp2", src="radio1.png"></img>  
+                </div>    
+            </div>                  
+        </div>
+    </div>
+
+
+    <div class="Passo">
+            <div class="textPasso1">Qual o passo a passo para ter o laudo?</div>       
+            <div class="textPasso2">Como funciona?</div>
+
+        
+    <div class="boxPasso1">
+        <div class="line"></div>
+        <div class="imgPasso1"></div>
+        <div class="imgPasso2"></div>
+        <div class="imgPasso3"></div>
+        <div class="retanguloPasso1"></div>
+        <div class="trianguloPasso1"></div>
+        <div class="textPasso3">Passo 1</div>
+        <div class="textPasso4">Baixe o app</div>
+        <div class="textPasso5">Disponível para Android e IOS</div>
+        <div class="imgPasso4"></div>
+        <div class="imgPasso5"></div>
+        <div class="textPasso6">Passo 2</div>
+        <div class="retanguloPasso2"></div>
+        <div class="trianguloPasso2"></div>
+        <div class="textPasso7">Cadastre-se</div>
+        <div class="textPasso8">Informe todos os dados necessários</div>
+        <div class="imgPasso6"></div>
+        <div class="retanguloPasso3"></div>
+        <div class="trianguloPasso3"></div>
+        <div class="textPasso9">Passo 3</div>
+        <div class="textPasso10">Envie o Raio X</div>
+        <div class="textPasso11">Anexe uma foto do exame no aplicativo</div>
+        <div class="imgPasso7"></div>
+        <div class="retanguloPasso4"></div>
+        <div class="trianguloPasso4"></div>
+        <div class="textPasso12">Passo 4</div>
+        <div class="textPasso13">Faça o Pagamento</div>
+        <div class="textPasso14">Pagamento poderá ser por PIX ou TED, de maneira fácil e rápida</div>
+        <div class="imgPasso8"></div>
+        <div class="imgPasso9"></div>
+        <div class="retanguloPasso5"></div>
+        <div class="trianguloPasso5"></div>
+        <div class="textPasso15">Passo 5</div>
+        <div class="textPasso16">Receba o Laudo</div>
+        <div class="textPasso17">Resultado enviado pelo aplicativo ou e-mail em até 24h.</div>
+        <div class="imgPasso10"></div>
+        <div class="imgPasso11"></div>
+        <div class="textPasso18">Baixe agora o App</div>
+        <div class="imgPasso12"></div>
+        <div class="imgPasso13"></div>
+    </div>
+    </div>
+
+
+    <div class="Preço">
+        <img class="imgPreço", src="imgpreço.png"></img> 
+        <div class="retanguloPreço1"></div>
+        <div class="textPreço1">Quanto custa cada laudo?</div>
+        <div class="textPreço2">Preço</div>
+        <div class="boxesPreço">
+            <div class="boxPreço1">
+                <div class="textPreço3">Valor da unidade</div>
+                <div class="textPreço5">R$</div>
+                <div class="textPreço6">15,00</div>
+                <div class="linePreço2"></div>
+                <div class="textPreço8">Sem limite de pedidos</div>
+                <div class="textPreço9">Pague de forma segura</div>
+                <div class="textPreço10">Laudo em até 24 horas</div>
+                <div class="textPreço11">Receba no e-mail ou App</div>
+                <img class="imgPreço2", src="shopping.png"></img>
+                <img class="imgPreço3", src="request.png"></img>
+                <img class="imgPreço4", src="relogio.png"></img>
+                <img class="imgPreço5", src="email.png"></img>
+            </div>
+            <div class="boxPreço2">
+                <div class="textPreço4">O primeiro laudo é</div>
+                <div class="textPreço7">Grátis</div>
+                <div class="linePreço1"></div>
+                <div class="boxPreço3">
+                <div class="textPreço12">Teste agora!</div>
+            </div>       
+        </div>
+    </div>
+    </div>
+
+    <div class="FAQ">
+        <div class="textFAQ1">Perguntas frequentes</div>
+        <div class="textFAQ2">FAQ</div>
+    </div>
+</body>
+</html>
