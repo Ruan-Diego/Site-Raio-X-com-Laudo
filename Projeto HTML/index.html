@@ -1,0 +1,3134 @@
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raio X com Laudo</title>
+</head>
+<body>
+    <style>
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+         
+    .box1{
+
+        position: fixed;
+        width: 100vw;
+        height: 64px;
+        left: 0px;
+        top: 0px;   
+        background-color: #012f3be3;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        z-index: 1000;
+
+        display:flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+   
+    .logo{
+
+        width: 55px;
+        height: 58px;
+        left: 32px;
+        top: 5px;
+        
+
+        background: url(Logo.png);
+       
+    }
+    .textTopo1{
+       /* position: absolute;
+        width: 51px;
+        height: 16px;
+        left: 142px;
+        top: 24px;     
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+
+        grid-area: 2;
+    }
+
+    .textTopo2{
+       /* position: absolute;
+        width: 129px;
+        height: 16px;
+        left: 225px;
+        top: 24px;       
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 3;
+    }
+
+    .textTopo3{
+       /* position: absolute;
+        width: 130px;
+        height: 16px;
+        left: 386px;
+        top: 24px; 
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 4;
+    }
+
+    .textTopo4{
+       /* position: absolute;
+        width: 50px;
+        height: 16px;
+        left: 546px;
+        top: 24px;    
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 5;
+    }
+
+    .textTopo5{
+       /* position: absolute;
+        width: 187px;
+        height: 16px;
+        left: 628px;
+        top: 24px;
+*/
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 6;
+    }
+
+    .textTopo6{
+       /* position: absolute;
+        width: 124px;
+        height: 16px;
+        left: 847px;
+        top: 24px;    
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 7;
+    }
+
+    .textTopo7{
+       /* position: absolute;
+        width: 106px;
+        height: 16px;
+        left: 1003px;
+        top: 24px;     
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 8;
+    }
+
+    .textTopo8{
+       /* position: absolute;
+        width: 67px;
+        height: 16px;
+        left: 1141px;
+        top: 24px;    
+        */
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        grid-area: 9;
+        
+    }
+
+    .textTopo9{
+       /* position: absolute;
+        width: 54px;
+        height: 16px;
+        left: 1280px;
+        top: 24px;
+        */
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #012F3B;
+        z-index: 3;
+        grid-area: 10;
+    }
+
+    .box2{
+
+        width: 134px;
+        height: 48px;
+        /*left: 1240px;
+        top: 8px;
+        */
+        background: #FFFFFF;
+        border: 1px solid #012F3B;
+        box-sizing: border-box;
+        border-radius: 8px; 
+        z-index: 2;
+        grid-area: 10;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .textEsp1{
+    position: absolute;
+    width: 327px;
+    height: 47px;
+    /*left: 546px;*/
+    top: 64px;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #012F3B;
+
+    text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textEsp2{
+        position: absolute;
+        width: 831px;
+        height: 65px;
+        /*left: 299px;*/
+        top: 128px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+        /* identical to box height */
+
+
+        color: #000000;
+    }
+
+    .textEsp3{
+        position: absolute;
+        width: 439px;
+        height: 28.43px;
+        top: 88px;
+        left: 130px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 34px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textEsp4{
+        position: absolute;
+        width: 442px;
+        height: 106.81px;
+        top: 138px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textEsp5{
+        position: absolute;
+        width: 422px;
+        height: 28.43px;
+        top: 78px;
+        left: 758px;
+
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 34px;
+        
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textEsp6{
+        position: absolute;
+        width: 422px;
+        height: 133.51px;
+        top: 138px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+
+
+
+        color: #000000;
+    }
+
+    .boxEsp2{
+
+        width: 507px;
+        height: 348px;
+
+
+        display: flex;
+        justify-content: center;
+
+
+
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 26px;
+    }
+
+    .boxEsp1{
+
+        width: 507px;
+        height: 348px;
+
+
+        display: flex;
+        justify-content: center;
+
+
+
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 26px;
+    }
+
+    .Esp{
+        position: absolute;
+        width: 1100px;
+        height: 500px;
+        top: 300px;
+
+
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .circuloEsp1{
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: -80px;
+
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #012F3B;
+    }
+
+    .circuloEsp2{
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: -80px;
+
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #012F3B;
+    }
+
+    .imgEsp1{
+        position: absolute;
+        width: 90px;
+        height: 75px;
+
+    }
+
+    .imgEsp2{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        z-index: 10;
+
+    }
+
+    .textPasso1{
+        position: absolute;
+        width: 644px;
+        height: 47px;
+        top: -30px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        /* identical to box height */
+
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textPasso2{
+        position: absolute;
+        width: 400px;
+        height: 65px;
+        top: -100px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+        /* identical to box height */
+
+
+
+        color: #000000;
+ 
+    }
+
+    .line{
+        position: absolute;
+        width: 2978px;
+        height: 0px;
+        left: -780px;
+        top: 3420px;
+       
+        background-color: #012F3B;
+        border: 2px solid #012F3B;
+        transform: rotate(-90deg);
+    }
+
+    .imgPasso1{
+        position: absolute;
+        width: 285px;
+        height: 90px;
+        left: 758px;
+        top: 2139px;
+
+        background: url(AppStrore.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .imgPasso2{
+        position: absolute;
+        width: 285px;
+        height: 90px;
+        left: 759px;
+        top: 2025px;
+
+        background: url(GooglePlay.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .imgPasso3{
+        position: absolute;
+        width: 78px;
+        height: 118px;
+        left: 485px;
+        top: 1941px;
+
+        background: url(phone.png);
+    }
+
+    .textPasso3{
+        position: absolute;
+        width: 320.24px;
+        height: 60px;
+        left: 351.86px;
+        top: 2088px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .textPasso4{
+        position: absolute;
+        width: 216px;
+        height: 40px;
+        left: 416px;
+        top: 2193px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso5{
+        position: absolute;
+        width: 232px;
+        height: 84px;
+        left: 408px;
+        top: 2249px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso4{
+        position: absolute;
+        width: 315px;
+        height: 490px;
+        left: 378px;
+        top: 2452px;
+
+        background: url(cadastro.png);
+
+    }
+
+    .imgPasso5{
+        position: absolute;
+        width: 78px;
+        height: 117px;
+        left: 853px;
+        top: 2477px;
+
+        background: url(prancheta.png);
+    }
+
+    .textPasso6{
+        position: absolute;
+        width: 323.4px;
+        height: 60px;
+        left: 730.05px;
+        top: 2625.04px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+        z-index: 10;
+
+        color: #FFFFFF;
+
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .retanguloPasso1{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 335.54px;
+        top: 2083px;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso1{
+        position: absolute;
+        width: 0px; 
+        height: 0px;
+        left: 293px;
+        top: 2083px;       
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+    }
+
+    .retanguloPasso2{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 710px;
+        top: 2626px;
+        z-index: 1;
+
+        background: #012F3B;
+
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso2{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 1083px;
+        top: 2626px;      
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+        z-index: 20;
+
+        transform: rotate(-180deg);
+
+    }
+
+    .textPasso7{
+        position: absolute;
+        width: 226px;
+        height: 40px;
+        left: 786px;
+        top: 2733px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso8{
+        position: absolute;
+        width: 271px;
+        height: 84px;
+        left: 767px;
+        top: 2789px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso6{
+        position: absolute;
+        width: 132px;
+        height: 132px;
+        left: 449px;
+        top: 3135px;
+
+        background: url(passo3.png);
+    }
+
+    .retanguloPasso3{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 335.54px;
+        top: 3290px;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso3{
+        position: absolute;
+        width: 0px; 
+        height: 0px;
+        left: 293px;
+        top: 3290px;       
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+    }
+
+    .textPasso9{
+        position: absolute;
+        width: 323.4px;
+        height: 60px;
+        left: 345px;
+        top: 3290px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .textPasso10{
+        position: absolute;
+        width: 337px;
+        height: 52px;
+        left: 344px;
+        top: 3406px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso11{
+        position: absolute;
+        width: 300px;
+        height: 84px;
+        left: 365px;
+        top: 3474px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso7{
+        position: absolute;
+        width: 300px;
+        height: 510px;
+        left: 757px;
+        top: 3048px;
+
+        background: url(laudo.png);
+    }
+
+    .retanguloPasso4{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 710px;
+        top: 3833px;
+        z-index: 1;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+
+    }
+
+    .trianguloPasso4{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 1083px;
+        top: 3833px;      
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+        z-index: 20;
+
+        transform: rotate(-180deg);
+
+    }
+
+    .textPasso12{
+        position: absolute;
+        width: 324.02px;
+        height: 60px;
+        left: 745.76px;
+        top: 3835px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+        z-index: 10;
+
+        color: #FFFFFF;
+    }
+
+    .textPasso13{
+        position: absolute;
+        width: 339px;
+        height: 41px;
+        left: 735px;
+        top: 3940px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso14{
+        position: absolute;
+        width: 362px;
+        height: 126px;
+        left: 722px;
+        top: 3997px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso8{
+        position: absolute;
+        width: 114px;
+        height: 78px;
+        left: 855px;
+        top: 3730px;
+
+        transform: rotate(180deg);
+
+        background: url(dinheiro.png);
+    }
+
+    .imgPasso9{
+        position: absolute;
+        width: 310px;
+        height: 515px;
+        left: 330px;
+        top: 3767px;
+
+        background: url(qrcode.png);
+    }
+
+    .retanguloPasso5{
+        position: absolute;
+        width: 374.46px;
+        height: 86px;
+        left: 335.54px;
+        top: 4497px;
+
+        background: #012F3B;
+        filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .trianguloPasso5{
+        position: absolute;
+        width: 0px; 
+        height: 0px;
+        left: 293px;
+        top: 4497px;       
+        border-top: 43px solid transparent;
+        border-bottom: 43px solid transparent; 
+        border-right: 43px solid #012F3B; 
+    }
+
+    .textPasso15{
+        position: absolute;
+        width: 323.4px;
+        height: 60px;
+        left: 352px;
+        top: 4500px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+        z-index: 10;
+
+        color: #FFFFFF;
+
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .textPasso16{
+        position: absolute;
+        width: 337px;
+        height: 52px;
+        left: 347px;
+        top: 4615px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .textPasso17{
+        position: absolute;
+        width: 300px;
+        height: 126px;
+        left: 372px;
+        top: 4685px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+
+        color: #000000;
+
+        opacity: 0.6;
+    }
+
+    .imgPasso10{
+        position: absolute;
+        width: 77px;
+        height: 113.06px;
+        left: 488px;
+        top: 4358px;
+
+        background: url(arquivo.png)        
+    }
+
+    .imgPasso11{
+        position: absolute;
+        width: 315px;
+        height: 515px;
+        left: 770px;
+        top: 4320px;
+        z-index: 10;
+
+        background: url(laudo2.png)
+    }
+
+    .textPasso18{
+        position: absolute;
+        width: 330px;
+        height: 47px;
+        left: 542px;
+        top: 4988px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .imgPasso12{
+        position: absolute;
+        width: 283px;
+        height: 85px;
+        left: 415px;
+        top: 5067px;
+
+        background: url(GooglePlay.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .imgPasso13{
+        position: absolute;
+        width: 283px;
+        height: 85px;
+        left: 720px;
+        top: 5067px;
+
+        background: url(AppStrore.png);
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.4));
+        border-radius: 8px;
+    }
+
+    .boxPasso1{
+        position: absolute;
+        width: 1450px;
+        height: 300px;
+        top: -1750px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Passo{
+        position: absolute;
+        width: 100vw;
+        height: 3500px;
+        top: 1800px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .Preço{
+        position: absolute;
+        width: 100vw;
+        height: 20px;
+        top: 5350px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgPreço{
+        position: absolute;
+        width: 100vw;
+        height: 802px;
+
+        z-index: 1;
+        filter: drop-shadow(0px 0px 153px rgba(0, 0, 0, 0.25));
+    }
+
+    .imgPreço2{
+        position: absolute; 
+        top: 316px;
+        left: 65px;
+
+    }
+
+    .imgPreço3{
+        position: absolute;
+        top: 356px;
+        left: 65px;
+    }
+
+    .imgPreço4{
+        position: absolute;
+        top: 396px;
+        left: 63px;
+    }
+
+    .imgPreço5{
+        position: absolute;
+        top: 431px;
+        left: 65px;
+    }
+
+    .retanguloPreço1{
+        width: 100vw;
+        height: 802px;
+        z-index: 2;
+
+        background: rgba(255, 255, 255, 0.59);
+    }
+
+    .linePreço1{
+        position: absolute;
+        width: 273px;
+        height: 0px;
+        top: 295px;
+
+        background-color: #FFFFFF;
+        border: 3px solid #FFFFFF;
+    }
+
+    .linePreço2{
+        position: absolute;
+        width: 273.01px;
+        height: 0px;
+        top: 287px;
+
+        background-color: #FFFFFF;
+        border: 3px solid #FFFFFF;
+    }
+
+    .textPreço1{
+        position: absolute;
+        width: 436px;
+        height: 47px; 
+        top: 39px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        z-index: 10;
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+    .textPreço2{
+        position: absolute;
+        width: 100px;
+        height: 65px;
+        top: 94px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+        z-index: 10;
+
+
+        color: #000000;
+    }
+
+    .textPreço3{
+        position: absolute;
+        top: 53px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: -0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço4{
+        position: absolute;
+        top: 55px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: -0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço5{
+        position: absolute;
+        left: 65px;
+        top: 175px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.97);
+    }
+
+    .textPreço6{
+        position: absolute;
+        left: 115px;
+        top: 133px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 90px;
+        line-height: 117px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.97);
+    }
+
+    .textPreço7{
+        position: absolute;
+        width: 273px;
+        height: 129px;
+        top: 133px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 90px;
+        line-height: 117px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.97);
+    }
+
+    .textPreço8{
+        position: absolute;
+        top: 318px;
+        left: 97px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço9{
+        position: absolute;
+        top: 358px;
+        left: 102px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço10{
+        position: absolute;
+        top: 396px;
+        left: 102px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .textPreço11{
+        position: absolute;
+        top: 433px;
+        left: 102px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+
+    }
+
+    .textPreço12{
+        position: absolute;
+        width: 219px;
+        
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: 0.03em;
+
+        color: #012F3B;
+    }
+
+    .boxesPreço{
+        position: absolute;
+        width: 900px;
+        top: 210px;
+
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .boxPreço1{
+
+        width: 372px;
+        height: 477px;
+        top: 226px;
+        z-index: 5;
+
+        display: flex;
+        justify-content: center;
+
+        background: #012F3B;
+        box-shadow: inset 0px 4px 28px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .boxPreço2{
+
+        width: 372px;
+        height: 477px;
+        top: 226px;
+        z-index: 5;
+
+        display: flex;
+        justify-content: center;
+
+        background: #012F3B;
+        box-shadow: inset 0px 4px 28px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .boxPreço3{
+        position: absolute;
+        width: 314px;
+        height: 79px;
+        top: 348px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: #FFFFFF;
+        border: 1.5px solid #353434;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+
+    .home{
+        position: absolute;
+        width: 100vw;
+        height: 800px;
+        top: 64px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imgHome2{
+        width: 34vw;
+        height: auto;
+
+        max-height: 800px;
+    }
+
+    .imgHome1{
+
+    width: 66vw;
+    height: auto;
+
+    max-height: 800px;
+    justify-content: end;
+
+    }
+
+    .textHome1{
+        position: absolute;
+        width: 457px;
+        height: 24px;
+        left: 58px;
+        top: 185px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.265em;
+
+        color: #012F3B;
+    }
+
+    .textHome2{
+        position: absolute;
+        width: 947px;
+        height: 130px;
+        left: 56px;
+        top: 217px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+
+        color: #000000;
+    }
+
+    .textHome3{
+        position: absolute;
+        width: 574px;
+        height: 43px;
+        left: 57px;
+        top: 536px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 43px;
+        /* identical to box height */
+
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textHome4{
+        position: absolute;
+        width: 207.28px;
+        height: 21.42px;
+        left: 278px;
+        top: 635.12px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        z-index: 10;
+
+        color: #FFFFFF;
+    }
+
+    
+    .boxHome1{
+        position: absolute;
+        width: 600px;
+        height: 108px;
+        left: 56px;
+        top: 607px;
+
+        background: #012F3B;
+        border: 1.5px solid #353434;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #FFFFFF;
+    }
+
+    .imgHome3{
+        position: absolute;
+        width: 290px;
+        height: 90px;
+        left: 57px;
+        top: 385px;
+
+        background: url(GooglePlay.png);
+        
+    }
+
+    .imgHome4{
+        position: absolute;
+        width: 290px;
+        height: 90px;
+        left: 354px;
+        top: 385px;
+
+        background: url(AppStrore.png);
+       
+    }
+
+    .corpo{
+        position: absolute;
+        width: 100vw;
+        height: 800px;
+        top: 864px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ{
+        position: absolute;
+        width: 100vw;
+        height: 800px;
+        top: 6200px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .textFAQ1{
+        position: absolute;
+        top: 120px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textFAQ2{
+        position: absolute;
+        top: 175px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+
+
+        color: #000000;
+
+    }
+
+    .textFAQ3{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ4{
+        position: absolute;
+        top: 80px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ5{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ6{
+        position: absolute;
+        width: 1073px;
+        top: 80px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ7{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ8{
+        position: absolute;
+        top: 80px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ9{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ10{
+        position: absolute;
+        top: 65px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ11{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ12{
+        position: absolute;
+        top: 80px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ13{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ14{
+        position: absolute;
+        top: 80px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ15{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ16{
+        position: absolute;
+        top: 80px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ17{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ18{
+        position: absolute;
+        top: 80px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ19{
+        position: absolute;
+        left: 54px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #000000;
+    }
+
+    .textFAQ20{
+        position: absolute;
+        top: 80px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        color: #6D6D6D;
+    }
+
+    .textFAQ21{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textFAQ22{
+        position: absolute;
+        top: 50px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 39px;
+        
+        color: #000000;
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textFAQ23{
+        position: absolute;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .boxFAQ1{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ2{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ3{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ4{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ5{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ6{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ7{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ8{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ9{
+        position: absolute;
+        width: 1187px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxFAQ10{
+        position: absolute;
+        width: 1251px;
+        height: 104px;
+        top: 2000px;
+
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .boxFAQ11{
+        position: absolute;
+        width: 526px;
+        height: 90px;
+        top: 2120px;
+
+
+
+        background: #012F3B;
+        border: 1.5px solid #353434;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .boxF1{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF2{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF3{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF4{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF5{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF6{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF7{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF8{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .boxF9{
+        position: absolute;
+        width: 1073px;      
+    }
+
+    .FAQ1{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 370px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ2{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 500px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ3{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 690px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ4{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 820px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ5{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 1080px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ6{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 1240px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ7{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 1400px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ8{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 1540px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .FAQ9{
+        position: absolute;
+        width: 100vw;
+        height: 104px;
+        top: 1680px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .setinha{
+        position: absolute;
+        left: 22px;
+    }
+
+    .corpoClinico{
+        position: absolute;
+        width: 100vw;
+        height: 808px;
+        top: 8550px;
+
+        display: flex;
+        justify-content: center;
+        background:url(corpoclinico.png);
+    }
+
+    .imgClin{
+        position: absolute;
+        width: 100vw;
+        max-height: 1008;
+    }
+
+    .textClin1{
+        position: absolute;
+        top: 81px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textClin2{
+        position: absolute;
+        top: 136px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+
+
+        color: #000000;
+
+    }
+
+    .boxClin1{
+        position: absolute;
+        top: 319px;
+        
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .med1{
+        position: absolute;
+        width: 226px;
+        height: 226px;
+        left: -558px;
+    }
+
+    .med2{
+        position: absolute;
+        width: 226px;
+        height: 226px;
+
+    }
+
+    .med3{
+        position: absolute;
+        width: 226px;
+        height: 226px;
+        left: 332px;
+    }
+
+    .textmed1{
+        position: absolute;
+        width: 231px;
+        height: 100px;
+        top: 560px;
+        left: 300px;
+    }
+
+    .textmed2{
+        position: absolute;
+        width: 329px;
+        height: 100px;
+    }
+
+    .textmed3{
+        position: absolute;
+        width: 265px;
+        height: 100px;
+    }
+
+    .nomeMed1{
+        position: absolute;
+        top: 245px;
+        left: -565px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .tipoMed1{
+        position: absolute;
+        top: 283px;
+        left: -580px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .crmMed1{
+        position: absolute;
+        top: 320px;
+        left: -558px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .nomeMed2{
+        position: absolute;
+        width: 350px;
+        left: -160px;
+        top: 245px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .tipoMed2{
+        position: absolute;
+        width: 350px;
+        left: -135px;
+        top: 283px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .crmMed2{
+        position: absolute;
+        width: 350px;
+        left: -110px;
+        top: 320px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .nomeMed3{
+        position: absolute;
+        width: 350px;
+        top: 245px;
+        left: 320px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .tipoMed3{
+        position: absolute;
+        width: 350px;
+        top: 283px;
+        left: 317px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .crmMed3{
+        position: absolute;
+        width: 350px;
+        top: 320px;
+        left: 337px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+
+        color: #000000;
+    }
+
+    .outros{
+        position: absolute;
+        width: 100vw;
+        height: 560px;
+        top: 9437px;
+
+        display: flex;
+
+        justify-content: space-around;
+        
+    }
+
+    .textOutros1{
+        position: absolute;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 47px;
+
+        color: #012F3B;
+
+        text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .textOutros2{
+        position: absolute;
+        top: 40px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 65px;
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .imgApp1{
+ 
+        width: 234px;
+        height: 234px;
+
+        top: 180px;
+
+    }
+
+    .imgApp2{
+    
+        width: 234px;
+        height: 234px;
+        top: 180px;
+
+    }
+
+    .imgApp3{
+
+        width: 234px;
+        height: 234px;
+        top: 180px;
+
+    }
+
+    .boxApp1{
+        position: absolute;
+        width: 1046px;
+        height: 560px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+
+    .boxApp2{
+        position: absolute;
+        width: 1046px;
+        height: 560px;
+        top:180px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nomeApp1{
+        width: 234px;
+        height: 78px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .nomeApp2{
+        width: 234px;
+        height: 78px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .nomeApp3{
+        width: 234px;
+        height: 78px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .contato{
+        position: absolute;
+        width: 100vw;
+        height: 763px;
+        left: 0px;
+        top: 10165px;
+
+        display: flex;
+        justify-content: center;
+
+        background: #012F3B;
+    }
+
+    .textCont1{
+        position: absolute;
+        top: 44.4px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 54px;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 17px rgba(255, 255, 255, 0.4);
+    }
+
+    .textCont2{
+        position: absolute;
+        top: 110px;
+
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+
+    .textCont3{
+        position: absolute;
+        top: 158px;
+
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+
+    .imgCont1{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 38px;
+        top: 109px;
+    }
+
+    .imgCont2{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 68px;
+        top: 159px;
+    }
+
+    .boxCont1{
+        position: absolute;
+        width: 500px;
+        height: 200px;
+    }
+
+    .boxCont2{
+
+        width: 1200px;
+        height: 60px;
+        top: 272px;
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .barra1{
+        width: 880px;
+        height: 60px;        
+
+
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxCont3{
+
+        width: 1200px;
+        height: 60px;
+        top: 348px;
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .barra2{
+        width: 880px;
+        height: 60px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxCont4{
+
+        width: 1200px;
+        height: 60px;
+        top: 408px;
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .barra3{
+        width: 880px;
+        height: 60px;
+
+        
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxCont5{
+
+        width: 1200px;
+        height: 131px;
+        top: 480px;
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .barra4{
+        width: 880px;
+        height: 131px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+
+        background: #E2EEF1;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 9px;
+    }
+
+    .boxCont6{
+        position: absolute;
+        width: 487px;
+        height: 68px;
+        top: 350px;
+
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .boxCont7{
+        width: 369px;
+        height: 124px;
+        top: 250px;
+    }
+
+    .boxCont8{
+        width: 290px;
+        height: 156px;
+        top: 250px;
+    }
+
+    .boxbox{
+        position: absolute;
+        width: 1330px;
+        height: 124px;
+        top: 245px;
+    }
+
+    .boxbox2{
+        position: absolute;
+        width: 1190px;
+        height: 124px;
+        top: 380px;
+    }
+
+    .textCont4{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+
+    .textCont5{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+
+    .submit{
+        width: 166px;
+        height: 68px;
+
+
+        background: #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        box-shadow: inset 0px 4px 16px rgba(0, 0, 0, 0.25);
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #012F3B;
+    }
+
+    .form{
+        position: absolute;
+        top: 250px;
+    }
+    </style>
+    
+
+    <div class="box1">
+        <div class="logo"></div>
+        <div class="textTopo1">Home</div>
+        <div class="textTopo2">Especialidades</div>
+        <div class="textTopo3">Como Funciona</div>
+        <div class="textTopo4">Preço</div>
+        <div class="textTopo5">Perguntas Frequentes</div>
+        <div class="textTopo6">Corpo Clínico</div>
+        <div class="textTopo7">Outros Apps</div>
+        <div class="textTopo8">Contato</div>
+        <div class="box2">
+            <div class="textTopo9">Login</div>
+        </div>
+       
+    </div>
+    
+    <div class="home">
+        <img class="imgHome2", src="img2.png"></img>
+        <img class="imgHome1", src="img1.png"></img>
+
+        <div class="textHome1">RAIO X COM LAUDO</div>
+        <div class="textHome2">Solicite o laudo do exame de Raio X com comodidade e rapidez.</div>
+       
+        <div class="imgHome3"></div>
+        <div class="imgHome4"></div>
+        <div class="textHome3">Ou acesse direto pelo seu navegador.</div>
+        <div class="boxHome1">Cadastre-se</div>
+    </div>
+
+    <div class="corpo">
+        <div class="textEsp1">Que tipo de Raio X?</div>
+        <div class="textEsp2">Quais são as nossas especialidade?</div>
+        
+        <div class="Esp">                                          
+            <div class="boxEsp1">
+                <div class="textEsp3">RAIO X TORÁCICO</div>
+                <div class="textEsp4">Somos especialistas em interpretação de radiografias do tórax e idade óssea. Auxiliando médicos no diagnóstico e tratamento de diversas patologias.</div>
+                <div class="circuloEsp1">
+                    <img class="imgEsp1", src="radio2.png"></img>    
+                </div> 
+            </div>     
+            <div class="arm"></div>
+            <div class="boxEsp2">
+                <div class="textEsp5">IDADE ÓSSEA</div>
+                <div class="textEsp6">Equipe capacitada para realização das interpretações radiográficas em idade óssea, visando estimar a idade óssea mais adequada por faixa etária e sexo.</div>    
+                <div class="circuloEsp2">
+                    <img class="imgEsp2", src="radio1.png"></img>  
+                </div>    
+            </div>                  
+        </div>
+    </div>
+
+    <div class="Passo">
+            <div class="textPasso1">Qual o passo a passo para ter o laudo?</div>       
+            <div class="textPasso2">Como funciona?</div>
+
+        
+    <div class="boxPasso1">
+        <div class="line"></div>
+        <div class="imgPasso1"></div>
+        <div class="imgPasso2"></div>
+        <div class="imgPasso3"></div>
+        <div class="retanguloPasso1"></div>
+        <div class="trianguloPasso1"></div>
+        <div class="textPasso3">Passo 1</div>
+        <div class="textPasso4">Baixe o app</div>
+        <div class="textPasso5">Disponível para Android e IOS</div>
+        <div class="imgPasso4"></div>
+        <div class="imgPasso5"></div>
+        <div class="textPasso6">Passo 2</div>
+        <div class="retanguloPasso2"></div>
+        <div class="trianguloPasso2"></div>
+        <div class="textPasso7">Cadastre-se</div>
+        <div class="textPasso8">Informe todos os dados necessários</div>
+        <div class="imgPasso6"></div>
+        <div class="retanguloPasso3"></div>
+        <div class="trianguloPasso3"></div>
+        <div class="textPasso9">Passo 3</div>
+        <div class="textPasso10">Envie o Raio X</div>
+        <div class="textPasso11">Anexe uma foto do exame no aplicativo</div>
+        <div class="imgPasso7"></div>
+        <div class="retanguloPasso4"></div>
+        <div class="trianguloPasso4"></div>
+        <div class="textPasso12">Passo 4</div>
+        <div class="textPasso13">Faça o Pagamento</div>
+        <div class="textPasso14">Pagamento poderá ser por PIX ou TED, de maneira fácil e rápida</div>
+        <div class="imgPasso8"></div>
+        <div class="imgPasso9"></div>
+        <div class="retanguloPasso5"></div>
+        <div class="trianguloPasso5"></div>
+        <div class="textPasso15">Passo 5</div>
+        <div class="textPasso16">Receba o Laudo</div>
+        <div class="textPasso17">Resultado enviado pelo aplicativo ou e-mail em até 24h.</div>
+        <div class="imgPasso10"></div>
+        <div class="imgPasso11"></div>
+        <div class="textPasso18">Baixe agora o App</div>
+        <div class="imgPasso12"></div>
+        <div class="imgPasso13"></div>
+    </div>
+    </div>
+
+    <div class="Preço">
+        <img class="imgPreço", src="imgpreço.png"></img> 
+        <div class="retanguloPreço1"></div>
+        <div class="textPreço1">Quanto custa cada laudo?</div>
+        <div class="textPreço2">Preço</div>
+        <div class="boxesPreço">
+            <div class="boxPreço1">
+                <div class="textPreço3">Valor da unidade</div>
+                <div class="textPreço5">R$</div>
+                <div class="textPreço6">15,00</div>
+                <div class="linePreço2"></div>
+                <div class="textPreço8">Sem limite de pedidos</div>
+                <div class="textPreço9">Pague de forma segura</div>
+                <div class="textPreço10">Laudo em até 24 horas</div>
+                <div class="textPreço11">Receba no e-mail ou App</div>
+                <img class="imgPreço2", src="shopping.png"></img>
+                <img class="imgPreço3", src="request.png"></img>
+                <img class="imgPreço4", src="relogio.png"></img>
+                <img class="imgPreço5", src="email.png"></img>
+            </div>
+            <div class="boxPreço2">
+                <div class="textPreço4">O primeiro laudo é</div>
+                <div class="textPreço7">Grátis</div>
+                <div class="linePreço1"></div>
+                <div class="boxPreço3">
+                <div class="textPreço12">Teste agora!</div>
+            </div>       
+        </div>
+    </div>
+    </div>
+
+    <div class="FAQ">
+        <div class="textFAQ1">Perguntas frequentes</div>
+        <div class="textFAQ2">FAQ</div>
+        <div class="FAQ1">
+            <div class="boxFAQ1">
+                <div class="textFAQ3">Quem fornece o laudo?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF1">
+            <div class="textFAQ4">Médicos adequadamente resgistrados no conselho de classe, e altamente capacitados.</div>
+            </div>
+        </div>
+
+        <div class="FAQ2">
+            <div class="boxFAQ2">
+                <div class="textFAQ5">Quais equipamentos é preciso para solicitar o laudo?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF2">
+            <div class="textFAQ6">É necessário um smartphone para baixar o aplicativo <b>Raio X com Laudo</b> e qualquer aparelho eletrocardiógrafo cujo exame possa ser enviado por uma única foto. Existe também a opção de solicitar os laudos através do computador,  sendo necessário apenas se cadastrar e realizar o <i>login</i>.</div>
+            </div>
+        </div>
+
+        <div class="FAQ3">
+            <div class="boxFAQ3">
+                <div class="textFAQ7">É possível solicitar pelo computador?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF3">
+                <div class="textFAQ8">Sim, é só se cadastrar e realizar o <i>login</i> no botão da barra superior dessa página.</div>
+            </div>
+        </div>
+
+        <div class="FAQ4">
+            <div class="boxFAQ4">
+                <div class="textFAQ9">Quem pode usar o App?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF4">
+                <div class="textFAQ10">
+                    <ul>
+                    <li>Médicos;</li> 
+                    <li>Clínicas e Policlínicas assistenciais; </li>
+                    <li>Hospitais privados;</li>
+                    <li>Sistemas públicos de saúde (Hospitais, Municípios, Estados, etc);</li> 
+                    <li>Setores de medicina do trabalho que requerem avaliações admissionais e demissionais.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="FAQ5">
+            <div class="boxFAQ5">
+                <div class="textFAQ11">É necessário que a solicitação seja feita por um médico?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF5">
+                <div class="textFAQ12">Sim, por motivos de segurança, é solicitado o CRM, o registro no Conselho Regional de Medicina, para realizar o cadastro tanto pelo <i>site</i> quanto pelo aplicativo.</div>
+            </div>
+        </div>
+
+        <div class="FAQ6">
+            <div class="boxFAQ6">
+                <div class="textFAQ13">Há algum tempo obrigatório de uso?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF6">
+                <div class="textFAQ14">Não. Após concordar com os termos, você usa o aplicativo enquanto tiver demanda, não existe utilização mínima e nem multa caso deixe de usar o <b>Raio X com Laudo</b>.</div>
+            </div>
+        </div>
+
+        <div class="FAQ7">
+            <div class="boxFAQ7">
+                <div class="textFAQ15">Como é feito o pagamento?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF7">
+                <div class="textFAQ16">O pagamento é feito no ato da solicitação do laudo, através de PIX ou TED.</div>
+            </div>
+        </div>
+
+        <div class="FAQ8">
+            <div class="boxFAQ8">
+                <div class="textFAQ17">Quanto custa?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF8">
+                <div class="textFAQ18">Cada laudo custa R$ 15,00 reais. Mas o primeito é grátis, faça o teste!</div>
+            </div>
+        </div>
+
+        <div class="FAQ9">
+            <div class="boxFAQ9">
+                <div class="textFAQ19">Preciso imprimir o laudo para entregar ao paciente?</div>
+                <img class="setinha", src="setinha.png"></img>
+            </div>
+            <div class="boxF9">
+                <div class="textFAQ20">O laudo é recebido pelo e-mail ou aplicativo, com isso, é possivel enviar o laudo digitalmente para o paciente excluindo a necessiadade de impressão. A natureza agradece!</div>
+            </div>
+        </div>
+        
+        <div class="boxFAQ10">
+            <div class="textFAQ21">Viu como é fácil?</div>
+            <div class="textFAQ22">Agora é só encomendar o seu laudo!</div>
+        </div>
+        
+        <div class="boxFAQ11">
+            <div class="textFAQ23">Cadastre-se</div>
+        </div>
+    </div>
+
+    <div class="corpoClinico">
+<!--Os meidcos estão armengados, não tinha conseguido fazer o space between, pra fazer a box tem q ser absolute e os objetos não.-->
+        <div class="textClin1">Profissionais capacitados</div>
+        <div class="textClin2">Corpo Clínico</div>
+        <div class="boxClin1">
+            <img class="med1", src="lucas.png"></img>
+            <img class="med2", src="diego.png"></img>
+            <img class="med3", src="jorge.png"></img>
+
+            <div class="nomeMed1">Dr. Lucas F. Maia</div>
+            <div class="tipoMed1">Médico Radiologista</div>
+            <div class="crmMed1">CRM 182429-SP</div>
+            <div class="nomeMed2">Dr. Diego Jordão L. Dias</div>
+            <div class="tipoMed2">Médico Radiologista</div>
+            <div class="crmMed2">CRM 186481-SP</div>
+            <div class="nomeMed3">Dr. Jorge H. Safady</div>
+            <div class="tipoMed3">Médico Radiologista</div>
+            <div class="crmMed3">CRM 176387-SP</div>
+        </div>
+    </div>
+
+    <div class="outros">
+        <div class="textOutros1">Conheça também!</div>
+        <div class="textOutros2">Outros App</div>
+        <div class="boxApp1">
+            <img class="imgApp1", src="app1.png"></img>
+            <img class="imgApp2", src="app2.png"></img>
+            <img class="imgApp3", src="app3.png"></img>
+        </div>
+        <div class="boxApp2">
+            <div class="nomeApp1">DIAX - Idade Óssea</div>
+            <div class="nomeApp2">DIAX - AnatoQuiz</div>
+            <div class="nomeApp3">DIAX Tórax - Radiologia</div>
+        </div>
+    </div>
+
+    <div class="contato">
+        <div class="textCont1">Contato</div>  
+        <div class="textCont2">diegojordao@msn.com</div>
+        <div class="textCont3">(xx) 9 12345-6789</div>
+        <div class="boxCont1">
+            <img class="imgCont1", src="email2.png"></img>
+            <img class="imgCont2", src="wpp.png"></img>
+        </div>
+        <div class="form">
+            <form>
+                <div class="boxCont2">
+                    <input class="barra1" type="text" placeholder="   Nome"></input>
+                </div>
+            
+                <div class="boxCont3">
+                    <input class="barra2" type="email" placeholder="   E-mail"></input>
+                </div>
+            
+                <div class="boxCont4">
+                    <input class="barra3" type="text" placeholder="   Celular"></input>
+                </div>
+            
+                <div class="boxCont5">
+                    <input class="barra4" type="text" placeholder="   Escreva sua mensagem aqui"></input>
+                </div>
+
+                <div class="boxCont6">
+                    <input class="submit" type="submit" value="   Enviar"></input>
+                </div>
+            </form>
+        </div>
+        <div class="boxbox">
+            <div class="boxCont7">
+                <div class="textCont4">Nos escreva uma mensagem</div>
+            </div>
+        </div>
+
+        <div class="boxbox2">
+            <div class="boxCont8">
+                <div class="textCont5">Se você tiver alguma dúvida, não hesite em nos enviar uma mensagem.</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
