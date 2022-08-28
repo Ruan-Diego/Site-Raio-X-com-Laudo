@@ -1,2 +1,2 @@
 # Site-Raio-X-com-Laudo
-Uma lading page todo feito em HTML e CSS, apesar de algumas imperfeições, está todo funcional e mostra toda a potência de um bom CSS
+A landing page made entirely in HTML and CSS, despite some imperfections, is fully functional and shows all the power of a good CSS
